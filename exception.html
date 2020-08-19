@@ -1,0 +1,26 @@
+<html>
+<script>
+function div()
+{
+    try{
+        a=eval(f1.t1.value)
+        b=eval(f1.t2.value)
+        c=a/b
+        alert(c)
+    }
+    catch(e){
+        alert(e)
+    }
+}
+</script>
+<body>
+<form name="f1">
+First value:
+<input type="text" name="t1"><br>
+Second value:
+<input type="text" name="t2"><br>
+
+<input type="button" value="show" onclick="div()">
+</form>
+</body>
+
