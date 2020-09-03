@@ -1,272 +1,621 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>California</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/fontawesome.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Noto+Serif" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    </head>
-    <body>
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="imgs/logo.png" alt="#" /></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DURGASOFT Software Solutions</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-                <div class="collapse navbar-collapse" id="show-menu">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#room">rooms</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Features
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">link</a>
-                                <a class="dropdown-item" href="#">Another link</a>
-                                <a class="dropdown-item" href="#">Another link</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#blog">blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">contacts</a>
-                        </li>
-                        <li class="nav-item book d-flex align-items-center">
-                            <a class="nav-link" href="#">book now</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        
-        <header id="home">
-            <div class="small-container">
-                <form class="main-font-family text-center">
-                    <input type="search">
-                    <i class="fas fa-search"></i>
-                    <input type="submit" value="Search">
-                </form>
-                <div class="row">
-                    <div class="col-lg-4 col-12 lobster-font-family d-flex align-items-center">
-                        <h2>It is a long established fact that a reader will be distracted by the readablen</h2>
-                        <button><a href="#">About hotel</a></button>
-                    </div>
-                </div>
-                <div class="h-slider roboto-font-family welcome d-flex align-items-center justify-content-center">
-                    <h1 class="text-capitalize">Welcome to California  <br><span>five hotel</span></h1>
-                    <div id="headerslider" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item carousel-three active"></div>
-                        <div class="carousel-item carousel-two"></div>
-                        <div class="carousel-item carousel-one"></div>
-                      </div>
-                      <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
-                        <i class="fas fa-angle-double-left"></i>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
-                        <i class="fas fa-angle-double-right"></i>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                </div>
-            </div>
-            <div class="st-rec"></div>
-            <div class="rd-rec"></div>
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: NewBiz
+    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="#intro" class="scrollto"><img src="img/new_logo_durga.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#batches">Batches</a></li>
+          <li><a href="#team">Team</a></li>
+
+          </li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+        <img src="img/intro-img.svg" alt="" class="img-fluid">
+      </div>
+
+      <div class="intro-info">
+        <h2>Motivated Achievers<br><span>Perform</span><br>Learn and Excel!</h2>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="#categories" class="btn-services scrollto">Categories</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p>DURGA SOFTWARE SOLUTIONS an ISO 9001:2008 Certified Organization,adivsion of Durga organizations is the one and only place providing in-depth training on all latest Java/J2ee technologies and Java Certifications for the last decade.
+
+            Every blog and forum around the globe will represent DURGA SOFT as pioneer and leader in Java Certification training. When the discussion comes on Java, all the online communities will have only one word DURGA SOFT.</p>
         </header>
-        
-        <div class="about lobster-font-family">
-            <div class="container">
-                <h2 class="text-center text-capitalize">About our hotel</h2>
-                <img src="imgs/shape.png">
-                <div class="row">
-                    <div class="col-lg-6 col-12">
-                        <h4>A best place to enjoy your life</h4>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered </p>
-                        <button><a href="#">Read more</a></button>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="img"></div>
-                    </div>
-                </div>
-                <h2 class="text-capitalize" id="room">rooms & suits</h2>
-                <div class="row">
-                    <div class="col-lg-4 col-12">
-                        <div class="img"></div>
-                    </div>
-                    <div class="col-lg-8 col-12">
-                        <div class="block">
-                            <div>
-                                <img src="imgs/shape.png">
-                                <strong>$405</strong>
-                                <h5>luxury rooms</h5>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-                                <button><a href="#" class="text-capitalize">Read more</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+              DURGA SOFT curriculum is not based on any book or any training material. It follows the exact curriculum mentioned by SUN Microsystems(ORACLE at present). The courses are designed to keep pace with the changing needs and times. DURGA SOFT teaches every topic starting from the fundamentals to the most advanced levels, with the most experienced trainers and with the most effective training methodologies .
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Video Lectures</a></h4>
+              <p class="description">Learn through high-quality & easy to understand video lectures.</p>
             </div>
+
+           
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="img/about-img.svg" class="img-fluid" alt="">
+          </div>
         </div>
-        
-        <div class="gallery lobster-font-family" id="blog">
-            <div class="container">
-                <h2 class="text-calitalize text-center">Our gallery</h2>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="pic-one"><h4>Relaxed swimming</h4></div>
-                        <div class="pic-two"><h4>Spacious Accommodtion</h4></div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="pic-three active"><h4>Yoga Wellness</h4></div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="pic-four"><h4>Romantic dinner</h4></div>
-                        <div class="pic-five"><h4>Apa & Wellness</h4></div>
-                    </div>
-                </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/about-extra-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Practice chapter-wise Quizzes & solve Assignments to learn and revise concepts.</h4>
+            <p>
+              Learn from the accomplished teachers with an in-depth understanding of the subject.
+            </p>
+            <p>
+              CUTTING EDGE CURRICULUM
+              Educate yourself with the top-notch study material designed by the EXPERTS.
+            </p>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/about-extra-2.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>LIVE CLASSES
+              Learn concepts, practice questions & get your doubts cleared instantly in the LIVE Classes.              
+              </h4>
+            <p>STUDENT DISCUSSION FORUM Get access to 24*7 Live Discussion group with batchmates & faculties.</p>
+            <p>
+              QUIZ & ASSIGNMENTS Practice chapter-wise Quizzes & solve Assignments to learn and revise concepts.</p>
+            <p>
+              VIDEO LECTURES Learn through high-quality & easy to understand video lectures.
+            </p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="categories" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Categories</h3>
+          <p>Learn from the comprehensive & interactive course content.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Android</a></h4>
+              <p class="description">Flutter. Flutter, an open-source mobile app development SDK, is created by Google,Java. Java, an object-oriented programming language, is an official Android development language,Swift,React Native,Kotlin,R Programming.</p>
             </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="">Data Science</a></h4>
+              <p class="description">Probability & Statistics,Multivariate Calculus & Linear Algebra,Programming, Packages and Softwares,Data Wrangling,Database Management,Data Visualization,Machine Learning / Deep Learning.Cloud Computing.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">UI technologies</a></h4>
+              <p class="description">Marketable programming skills for UI developers include HTML, CSS, JavaScript, AJAX, JSON, jQuery, Java, Ruby on Rails, and SQL database development. UI devs will also benefit from learning Photoshop, Flash, Flex and Illustrator from the Adobe Creative Suite.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">Java</a></h4>
+              <p class="description">JavaServer pages (JSP) and servlets.Web frameworks (e.g., Struts and Spring)Service-oriented architecture/web services (SOAP/REST)Markup languages like XML and JSON.Object-oriented programming (OOP) concepts and patterns.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
+              <h4 class="title"><a href="">Python</a></h4>
+              <p class="description">Expertise In Core Python.Good grasp of Web Frameworks,Object Relational Mappers,Road to Data Science, Machine Learning and AI,Deep Learning,Understanding of Multi-Process Architecture.
+                Analytical skills.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-clock-outline" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a href="">Selenium</a></h4>
+              <p class="description">Test architecture,Test design,Performance testing,Configuration management,Manual testing agility and interaction,Communication between teams,Troubleshooting,Agile, DevOps, and Continuous delivery.</p>
+            </div>
+          </div>
+
         </div>
-        
-        <div class="slider main-font-family">
-            <h2 class="text-center text-capitalize main-font-family">what our clients say</h2>
-          <div id="slideToNext" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#slideToNext" data-slide-to="0" class="active"></li>
-              <li data-target="#slideToNext" data-slide-to="1"></li>
-              <li data-target="#slideToNext" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="carousel-caption d-block">
-                    <img src="imgs/pic7.png">
-                  <h5>jone due</h5>
-                  <p>It is a long established fact that a reader wil
-l be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-                </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Why Us Section
+    ============================-->
+    <section id="batches" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Why choose us?</h3>
+          <h4>Best Training Institue in India.</h4>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-diamond"></i>
+              <div class="card-body">
+                <h5 class="card-title">ONLINE & OFFLINE VIDEO LECTURES</h5>
+                <p class="card-text">Learn even when you are offline through our in-app video lectures.</p>
+                
               </div>
-              <div class="carousel-item">
-                <div class="carousel-caption d-block">
-                    <img src="imgs/pic7.png">
-                  <h5>jone due</h5>
-                  <p>It is a long established fact that a reader wil
-l be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-language"></i>
+              <div class="card-body">
+                <h5 class="card-title">LEARN ANYTIME ANYWHERE</h5>
+                <p class="card-text">Learn at your own pace through our easy to navigate Responsive Website.</p>
+                 </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-object-group"></i>
+              <div class="card-body">
+                <h5 class="card-title">AFFORDABLE FEE STRUCTURE</h5>
+                <p class="card-text">Learn from the best in the industry with an affordable payment plan.</p>
+                
               </div>
-              <div class="carousel-item">
-                <div class="carousel-caption d-block">
-                    <img src="imgs/pic7.png">
-                  <h5>jone due</h5>
-                  <p>It is a long established fact that a reader wil
-l be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">274</span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">421</span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Hard Workers</p>
+          </div>
+  
+        </div>
+
+      </div>
+    </section>
+
+    
+    </section><!-- #testimonials -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h1>Meet Our Team</h1>
+          
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/durga.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr.Durga</h4>
+                  <span>Trainer</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        
-        <div class="contact main-font-family text-center">
-            <div class="container">
-                <h2 id="contact">Get in touch</h2>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="contact-form">
-                            <form>
-                                <input type="text" placeholder="Name">
-                                <input type="email" placeholder="Email">
-                                <input type="text" placeholder="Phone">
-                                <textarea placeholder="Message"></textarea>
-                                <input type="submit" value="submit">
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <h2 class="text-right">Book Your Holiday Best for relaxed retreats and cultural encounters</h2>
-                        <img src="imgs/shape.png">
-                    </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/nagoor_babu.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr.Nagoor Babu</h4>
+                  <span>Trainer</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div></div>
-        </div>
-        
-        <footer class="noto-font-family">
-            <div class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <h3>Useful links</h3>
-                            <ul class="text-capitalize">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Rooms</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacts</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12">
-                            <h3>Find us</h3>
-                            <p>Healing Center, 176 W Street name,<br>
-                                New York, NY 10014, US<br>
-                                (+71) 987 654 3210<br>
-                                (+71) 987 654 3210<br>
-                                fivehotel@gmail.com
-                            </p>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 form">
-                            <h3>News letter</h3>
-                            <form>
-                                <input type="email" placeholder="Email">
-                                <input type="submit">
-                            </form>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/Wilson.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr.Wilson Balla</h4>
+                  <span>Trainer</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
                 </div>
+              </div>
             </div>
-        </footer>
-        
-        <div class="copyright noto-font-family">
-            <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/">Free Html Templates</a></p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/Naresh.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr.Naresh</h4>
+                  <span>Trainer</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+      </div>
+    </section><!-- #team -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="clients" class="section-bg">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Our CLients</h3>
+          <p></p>
+        </div>
+
+        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-2.png" class="img-fluid" alt="">
+            </div>
+          </div>
         
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script>
-            $(function () {
-                
-                'use strict';
-                
-                var winH = $(window).height();
-                
-                $('header').height(winH);
-                
-                $('.navbar ul.navbar-nav li a').on('click', function (e) {
-                    
-                    var getAttr = $(this).attr('href');
-                    
-                    e.preventDefault();
-                    $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
-                });
-            });
-        </script>
-    </body>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
+
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-6">
+            <div class="map mb-4 mb-lg-0"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60902.778467151285!2d78.382580870489!3d17.439425440037013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb915c0ab41017%3A0x4a4432d2108fc605!2sDurga%20Soft!5e0!3m2!1sen!2sus!4v1599118846297!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-5 info">
+                <i class="ion-ios-location-outline"></i>
+                <p>Plot No. 58, 2nd Floor, Sai Nagar, Madhapur, Hyderabad, Telangana 500034, India</p>
+              </div>
+              <div class="col-md-4 info">
+                <i class="ion-ios-email-outline"></i>
+                <p>durgasoftonlinetraining@gmail.com</p>
+              </div>
+              <div class="col-md-3 info">
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+91-7207212427</p>
+              </div>
+            </div>
+
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>DURGASOFT</h3>
+            <p>Getting job in IT industry after completing course in DURGA SOFT is not a big deal.Getting selected in a job interview and getting 100 percentage in Java Certification is the daily common news at DURGA SOFT .
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              DURGA SOFTWARE SOLUTIONS Flat No : 202, 2nd Floor, HUDA Maitrivanam, Ameerpet, Hyderabad-500038. <br>
+              <strong>Phone:</strong> +91-8885252627<br>
+              <strong>Email:</strong> durgasoftonlinetraining@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>PRIVACY POLICY </h4>
+            <p>By visiting this Website you agree to be bound by the terms and conditions of this Privacy Policy. If you do not agree please do not use or access our Website.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit"  value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Durgasoft</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
+        -->
+        Designed by <a href="https://bootstrapmade.com/">Shazia</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 </html>
